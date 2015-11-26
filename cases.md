@@ -10,7 +10,8 @@ Specifically, we found that your app does not load any content when the "积分�
 ![case1_1][case1_1]
 
 ```
-应用不能从非AppStore的其他途径安装二进制文件，而我们的应用中存在企业InHouse下载
+app存在bug，拒绝
+我们app有一个“积分商城”页面，是web页面，审核时由于我们没有配置好这个页面，审核人员发现内容为空，审核人员则认为是应用bug。
 ```
 
 ### case 2
@@ -22,8 +23,8 @@ We noticed that your app contains irrelevant platform information in the marketi
 ![case2_1][case2_1]
 
 ```
-应用截图中不能有其他移动平台的信息，我们的应用截图中存在Android字样；
-之前有一次被拒也是上传截图时设计省事，状态栏直接用了安卓的状态栏，被审核到拒绝。
+应用截图中包含第三方应用市场信息，拒绝
+我们的应用截图中存在Android字样，之前有一次被拒也是上传截图时设计省事，状态栏直接用了安卓的状态栏，被审核到拒绝。
 ```
 
 
