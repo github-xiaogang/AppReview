@@ -27,7 +27,24 @@ We noticed that your app contains irrelevant platform information in the marketi
 我们的应用截图中存在Android字样，之前有一次被拒也是上传截图时设计省事，状态栏直接用了安卓的状态栏，被审核到拒绝。
 ```
 
+### case 3
+```
+3.1 -  Apps with names, descriptions, screenshots, or previews not relevant to the content and functionality of the App will be rejected
 
+We noticed that your app's metadata includes the following information, which is not relevant to the application content and functionality:
+大桐乡，www.tx365.com
+
+And When We began the review of your app but are not able to continue because we need a demo account to fully assess your app features.
+Specifically, we were unable to log into the app with the demo account credentials you provided. 
+Please provide demo account details, including passwords, in the App Review Information section for your app in iTunes Connect. Please ensure that the information you provide includes any data necessary to demonstrate the functionality of your app features.
+```
+![case3_1][case3_1]
+
+```
+应用描述:"大桐乡，www.tx365.com" 与应用内容无关， 拒绝
+我们的应用描述过于简单，不能描述app的内容。
+另外我们提供的demo账号有误，审核人员登录不成功，也会导致元数据拒绝。
+```
 
 
 
@@ -37,3 +54,4 @@ We noticed that your app contains irrelevant platform information in the marketi
 
 [case1_1]: https://github.com/github-xiaogang/Resource/blob/master/appreview/case1/1.png
 [case2_1]: https://github.com/github-xiaogang/Resource/blob/master/appreview/case2/1.png
+[case3_1]: https://github.com/github-xiaogang/Resource/blob/master/appreview/case3/1.png
