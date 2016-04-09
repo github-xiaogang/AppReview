@@ -53,8 +53,8 @@ Please provide demo account details, including passwords, in the App Review Info
 
 
 
-[case1_1]: https://github.com/github-xiaogang/Resource/blob/master/appreview/case1/1.png
-[case2_1]: https://github.com/github-xiaogang/Resource/blob/master/appreview/case2/1.png
-[case3_1]: https://github.com/github-xiaogang/Resource/blob/master/appreview/case3/1.png
+[case1_1]: https://github.com/github-xiaogang/AppReview/blob/master/resource/case1/1.png
+[case2_1]: https://github.com/github-xiaogang/AppReview/blob/master/resource/case2/1.png
+[case3_1]: https://github.com/github-xiaogang/AppReview/blob/master/resource/case3/1.png
 
 
