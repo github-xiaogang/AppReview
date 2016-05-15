@@ -47,7 +47,7 @@ Please provide demo account details, including passwords, in the App Review Info
 另外我们提供的demo账号有误，审核人员登录不成功，也会导致元数据拒绝。
 ```
 
-### case [4]
+### case 4
 ```
 14.3 - Apps that display user generated content must include a method for filtering objectionable material, a mechanism for users to flag offensive content, and the ability to block abusive users from the service
 
