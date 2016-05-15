@@ -47,8 +47,24 @@ Please provide demo account details, including passwords, in the App Review Info
 另外我们提供的demo账号有误，审核人员登录不成功，也会导致元数据拒绝。
 ```
 
+### case [4]
+```
+14.3 - Apps that display user generated content must include a method for filtering objectionable material, a mechanism for users to flag offensive content, and the ability to block abusive users from the service
 
 
+14.3 Details
+
+Your app enables the display of user-generated content but does not have the required precautions in place.
+
+Specifically, your app does not include the necessary "Blocking" (屏蔽/黑名单) mechanism for users.
+
+Unlike "Reporting" (举报), "Blocking" (屏蔽) allows a user to block another user, so that the user has an immediate solution to stop further harassment or other interaction from the other user. This feature addresses the user's needs while waiting for your moderators to respond to a report, or in the event the user is personally offended by posts from a specific user, but your moderators have determined the content were not against your policy.
+```
+```
+应用中有用户产生内容，但缺少预防机制；
+拒绝原因是说我们app没有屏蔽/黑名单功能，而不仅仅是举报。他这里说的屏蔽/黑名单指的是将某一用户屏蔽后，自己就不会看到该用户发布的内容。
+解决办法：应用中添加屏蔽/拉黑功能。
+```
 
 
 
