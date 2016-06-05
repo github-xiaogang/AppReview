@@ -60,6 +60,8 @@ Specifically, your app does not include the necessary "Blocking" (屏蔽/黑名�
 
 Unlike "Reporting" (举报), "Blocking" (屏蔽) allows a user to block another user, so that the user has an immediate solution to stop further harassment or other interaction from the other user. This feature addresses the user's needs while waiting for your moderators to respond to a report, or in the event the user is personally offended by posts from a specific user, but your moderators have determined the content were not against your policy.
 ```
+![case4_1][case4_1]
+
 ```
 应用中有用户产生内容，但缺少预防机制；
 拒绝原因是说我们app没有屏蔽/黑名单功能，而不仅仅是举报。他这里说的屏蔽/黑名单指的是将某一用户屏蔽后，自己就不会看到该用户发布的内容。
@@ -72,5 +74,5 @@ Unlike "Reporting" (举报), "Blocking" (屏蔽) allows a user to block another 
 [case1_1]: https://github.com/github-xiaogang/AppReview/blob/master/resource/case1/1.png
 [case2_1]: https://github.com/github-xiaogang/AppReview/blob/master/resource/case2/1.png
 [case3_1]: https://github.com/github-xiaogang/AppReview/blob/master/resource/case3/1.png
-
+[case4_1]: https://github.com/github-xiaogang/AppReview/blob/master/resource/case4/1.png
 
