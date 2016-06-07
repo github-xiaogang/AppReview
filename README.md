@@ -68,6 +68,37 @@ Unlike "Reporting" (举报), "Blocking" (屏蔽) allows a user to block another 
 解决办法：应用中添加屏蔽/拉黑功能。
 ```
 
+### case 5
+```
+2.2 - Apps that exhibit bugs will be rejected
+
+2.2 Details
+
+We discovered one or more bugs in your app when reviewed on iPhone running iOS 9.3.2 on both Wi-Fi and cellular networks.
+
+1. The app does not load any content under all 5 tabs using IPv6 network. 
+
+Next Steps
+
+Please run your app on a device to identify the issue(s), then revise and resubmit your app for review. 
+
+Apps are reviewed on an IPv6 network. Please ensure that your app supports IPv6 networks, as IPv6 compatibility is required.
+
+For additional information about supporting IPv6 Networks, please refer to Supporting iPv6 DNS64/NAT64 Networks.
+
+For a networking overview, see About Networking.
+```
+
+![case5_1][case5_1]
+
+```
+应用存在bug：需要支持IPv6。
+
+这是一个意外，我们客户服务器在审核期间域名解析存在问题，用移动4G网络访问时提示[Invalid Host]，审核人员测试时我们域名解析问题刚好存在问题，被拒绝。
+刚开始查找问题的时候发现第三方即时通信通信环信库最近更新版本支持IPv6，后面看审核截图才发现不是这个问题。
+
+```
+
 
 
 
@@ -75,4 +106,6 @@ Unlike "Reporting" (举报), "Blocking" (屏蔽) allows a user to block another 
 [case2_1]: https://github.com/github-xiaogang/AppReview/blob/master/resource/case2/1.png
 [case3_1]: https://github.com/github-xiaogang/AppReview/blob/master/resource/case3/1.png
 [case4_1]: https://github.com/github-xiaogang/AppReview/blob/master/resource/case4/1.png
+[case5_1]: https://github.com/github-xiaogang/AppReview/blob/master/resource/case5/1.png
+
 
