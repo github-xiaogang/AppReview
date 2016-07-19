@@ -99,6 +99,22 @@ For a networking overview, see About Networking.
 
 ```
 
+### case 6
+```
+Performance - 2.1
+We discovered one or more bugs in your app when reviewed on iPad and iPhone running iOS 9.3.2 on Wi-Fi.
+- An error message appeared at launch for not connecting to server.
+Apps are reviewed on an IPv6 network. Please ensure that your app supports IPv6 networks, as IPv6 compatibility is required.
+```
+
+![case6_1][case6_1]
+
+```
+苹果审核要求应用支持IPv6，之前一直以为是App问题，参考苹果提供的方法模拟了ipv6环境测试没有问题，结果连续提交，连续被拒。后面就考虑可能是App服务器不支持ipv6，结果在服务器上运行ifconfig，发现还真没有ipv6地址。
+后面参考了 http://elkpi.com/topics/aliyun-enable-ipv6.html （我们服务器是阿里云的CentOS），开启服务端的ipv6
+
+```
+
 
 
 
@@ -107,5 +123,6 @@ For a networking overview, see About Networking.
 [case3_1]: https://github.com/github-xiaogang/AppReview/blob/master/resource/case3/1.png
 [case4_1]: https://github.com/github-xiaogang/AppReview/blob/master/resource/case4/1.png
 [case5_1]: https://github.com/github-xiaogang/AppReview/blob/master/resource/case5/1.png
+[case6_1]: https://github.com/github-xiaogang/AppReview/blob/master/resource/case6/1.png
 
 
