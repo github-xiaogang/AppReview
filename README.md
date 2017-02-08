@@ -1,6 +1,8 @@
 
 ## AppReview Cases:
 
+[![Join the chat at https://gitter.im/github-xiaogang/AppReview](https://badges.gitter.im/github-xiaogang/AppReview.svg)](https://gitter.im/github-xiaogang/AppReview?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ### case 1
 ```
 2.2  Apps that exhibit bugs will be rejected
